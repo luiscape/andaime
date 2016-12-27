@@ -1,6 +1,6 @@
-"""
+'''
 Unit tests for the Git() class. 
-"""
+'''
 
 import os
 import shutil
@@ -52,3 +52,4 @@ class GitTestCase(TestCase):
 
         files = os.listdir('tests/output')
         self.assertTrue('.git' in files)
+        
