@@ -3,10 +3,9 @@
 #   MAKEFILE                                    #
 #   --------                                    #
 #                                               #
-#   Contains commands for both setting          #
-#   up the development environemnt and          #
-#   managing the deployment of Docker           #
-#   containers.                                 #
+#   Contains commands for setting up a          #
+#   development environment, linting,           #
+#   and running test.                           #
 #                                               #
 #   - test:     runs all tests with nosetests   #
 #               and reports coverage.           #
@@ -21,15 +20,7 @@
 #                                               #
 #+++++++++++++++++++++++++++++++++++++++++++++++#
 
-#
-#   DEVELOP
-#   -------
-#
-#   Commands relevant for the development
-#   workflow; helps build dependencies,
-#   setup the virtual environment, and
-#   run tests.
-#
+
 test:
 	bash bin/test.sh;
 
