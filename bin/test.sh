@@ -68,5 +68,4 @@ if [[ $CIRCLECI ]]
             --cover-min-percentage=90 \
             --cover-html \
             -v
-
 fi
